@@ -18,4 +18,18 @@ JDK (JDK 17 or higher for Spring Boot 3)
 Spring Boot uses Spring behind the scenes. 
 Spring provides a starter Spring Boot project at http://start.spring.io
 
+Spring boot is mostly about configuration. Spring boot uses Spring MVC under the hood
 
+# Spring initializer
+https://start.spring.io
+
+- Create starter spring project
+- creates a Maven/Gradle project that we can download as a ZIP
+- import the project into IDE
+
+Dependencies: Spring Web: complete package of dependencies containing things like Spring MVC, RESTful and Apache Tomcat
+
+
+# Maven
+- we tell maven about projecs we are working with (dependencies) i.e Spring or Hibernate
+- Maven downloads JAR files for those projects
