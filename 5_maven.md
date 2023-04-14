@@ -43,3 +43,26 @@ Adding version is still best practice.
 In java world devs will refer to this as GAV (group id, artifact id, version)
 
 This info can be found on http://search.maven.org
+
+
+## application.properties
+we can add properties here like server.port
+We can also configure here props that can be used later in code
+
+ie:
+```java
+coach.name=Mickey Mouse
+```
+
+```java
+@Value("${coach.name}") // injecting property
+```
+
+
+## Starters
+spring boot team offers selected list of starters which are packages of dependencies for certain projects, i.e mvc projects.
+
+We can use those to have a complete package of dependencies for our priject.
+to see what is in dependencies we can go in intellij to view-> tool windows -> maven and we will have a window with our dependencies opened
+
+
